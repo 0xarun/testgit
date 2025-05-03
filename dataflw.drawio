@@ -1,0 +1,167 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Page-1" id="FlorkPFr9m_bxN8UioU_">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Restaurant_Owner_Interaction" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="8" width="387" height="862" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Customer_Interaction" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="415" y="8" width="633" height="862" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Customer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="585" y="33" width="128" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Login System" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="457" y="159" width="153" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Menu" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="484" y="286" width="98" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Shopping Cart" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="569" y="412" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Order Processing" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="559" y="539" width="180" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Payment Gateway" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="555" y="665" width="189" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Payment Confirmation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="539" y="791" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="WhatsApp API" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="832" y="665" width="158" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Customer WhatsApp" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="809" y="791" width="204" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Restaurant Owner" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="117" y="33" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Login System" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="53" y="159" width="153" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Menu Management" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="115" y="286" width="193" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Digital Store" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="137" y="412" width="149" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Admin Dashboard" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="119" y="539" width="184" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="WhatsApp API" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="133" y="665" width="158" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="Owner WhatsApp" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="791" width="182" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="Login" style="curved=1;startArrow=none;endArrow=block;exitX=0.11;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="533" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="Access Menu" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="Add to Cart" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.19;entryY=0;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="533" y="376" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="Place Order" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="Payment Details" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;" edge="1" parent="1" source="8" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="Confirmation" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="9" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="Order Details" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.89;entryX=0.5;entryY=0;" edge="1" parent="1" source="8" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="911" y="629" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="Send Order Confirmation" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="11" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="Login" style="curved=1;startArrow=none;endArrow=block;exitX=0.32;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="13" target="14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" value="Upload Menu" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.32;entryY=0;" edge="1" parent="1" source="14" target="15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="Create Store" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="15" target="16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" value="Manage Store" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="16" target="17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" value="Receive Order Details" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;" edge="1" parent="1" source="17" target="18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33" value="Send Order Notification" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="18" target="19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" value="Interacts with" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.75;entryX=1;entryY=0.19;" edge="1" parent="1" source="4" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="943" y="123" />
+              <mxPoint x="943" y="376" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35" value="Interacts with" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=1;entryX=0.68;entryY=0;" edge="1" parent="1" source="13" target="15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="293" y="123" />
+              <mxPoint x="293" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36" value="Order Notification" style="curved=1;startArrow=none;endArrow=block;exitX=0.15;exitY=0.99;entryX=1;entryY=0.18;" edge="1" parent="1" source="8" target="18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="502" y="629" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
