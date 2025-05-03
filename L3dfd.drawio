@@ -1,0 +1,141 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Page-1" id="_AU-UDHWYbG2pj6VxBYL">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Restaurant Owner" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="229" y="8" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="View Orders" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="250" y="134" width="146" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Order Database" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="238" y="261" width="171" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Confirm Order" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="138" y="531" width="163" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Update Status in Database" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="95" y="387" width="249" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Send Confirmation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="373" y="658" width="192" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Confirmation Database" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="357" y="784" width="224" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Notify Rejection" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="211" y="910" width="176" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Receives Order Details" style="curved=1;startArrow=none;endArrow=block;exitX=0.2;exitY=1;entryX=0.12;entryY=0.01;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="191" y="98" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=1;entryX=0.07;entryY=0;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="149" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Fetch Orders" style="curved=1;startArrow=none;endArrow=block;exitX=0.76;exitY=0;entryX=0.81;entryY=1.01;" edge="1" parent="1" source="4" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="429" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Displayed Orders" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=0.01;entryX=0.73;entryY=1;" edge="1" parent="1" source="3" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="422" y="98" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Select Order" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.91;entryX=0.12;entryY=0;" edge="1" parent="1" source="2" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55" y="98" />
+              <mxPoint x="55" y="486" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Order Details" style="curved=1;startArrow=none;endArrow=block;exitX=0.98;exitY=0;entryX=0.76;entryY=1;" edge="1" parent="1" source="5" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="428" y="486" />
+              <mxPoint x="428" y="351" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Update Order Status" style="curved=1;startArrow=none;endArrow=block;exitX=0.24;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="4" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="219" y="351" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Order Confirmed or Rejected" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="6" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="Send Confirmation to" style="curved=1;startArrow=none;endArrow=block;exitX=0.77;exitY=1;entryX=0.18;entryY=-0.01;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325" y="621" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Update Confirmation Status" style="curved=1;startArrow=none;endArrow=block;exitX=0.12;exitY=0.99;entryX=0.18;entryY=0;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="299" y="748" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="Acknowledgement" style="curved=1;startArrow=none;endArrow=block;exitX=0.6;exitY=0;entryX=0.62;entryY=0.99;" edge="1" parent="1" source="8" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="523" y="748" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="Notifies" style="curved=1;startArrow=none;endArrow=block;exitX=0.62;exitY=-0.01;entryX=0.96;entryY=1;" edge="1" parent="1" source="7" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="523" y="621" />
+              <mxPoint x="523" y="98" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="Reject Order" style="curved=1;startArrow=none;endArrow=block;exitX=0.26;exitY=1;entryX=0.09;entryY=0.01;" edge="1" parent="1" source="5" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="621" />
+              <mxPoint x="130" y="874" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="Update Rejection Status" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.05;entryX=0.6;entryY=1;" edge="1" parent="1" source="9" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="523" y="874" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="Acknowledgement" style="curved=1;startArrow=none;endArrow=block;exitX=0.08;exitY=1;entryX=0.38;entryY=0.01;" edge="1" parent="1" source="8" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="249" y="874" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
